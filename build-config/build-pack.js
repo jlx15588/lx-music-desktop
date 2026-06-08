@@ -23,6 +23,7 @@ const options = {
     buildResources: './resources',
     output: './build',
   },
+  electronDist: './node_modules/electron/dist',
   files: [
     '!node_modules/**/*',
     'node_modules/font-list',
